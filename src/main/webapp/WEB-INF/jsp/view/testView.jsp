@@ -6,7 +6,7 @@
 <title>testView</title>
 </head>
 <body>
-<tag:log msg="log_view中文_id=${param.id}"></tag:log>
+<tag:log msg="log_view中文_id=${param.id}" level="info"></tag:log>
 testView中文_id=${param.id}<lhlUtil:stopPage/>aaa
 </body>
 </html>

@@ -3,8 +3,10 @@
 ## 配置工作空间
 Project -> Build Automatically 取消勾选
 Window -> Preferences -> General -> Workspace Text file encoding 修改为 UTF-8
+Window -> Preferences -> Validation 取消 Allow projects..., 勾选 Suspend all validators
 Window -> Open Perspective -> Java
 Package Presentation -> Hierarchical
+Top Level Elements -> Working Sets
 
 ## 创建项目
 eclipse 创建Maven Java Web Project时候，需要使用骨架 maven-archetype-webapp
